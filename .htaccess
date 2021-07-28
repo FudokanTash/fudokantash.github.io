@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} fudokan.uz
+RewriteRule (.*) http://karate.uz/$1 [R=301,L]
